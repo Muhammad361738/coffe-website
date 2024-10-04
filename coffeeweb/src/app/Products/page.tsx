@@ -14,7 +14,7 @@ const Page = () => {
                 {/* Heading */}
                 {/* card1 */}
                  <div className="h-auto w-full flex flex-wrap flex-col items-center bg-amber-800"> 
-                     <p className=" mt-20 font-bold text-2xl md:text-3xl text-center">"Our Products"</p>
+                     <p className=" mt-20 font-bold text-2xl md:text-3xl text-center">Our Products</p>
                        <div className="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-12"></div>
                          <div className="w-[90%] h-auto flex flex-wrap justify-around">
                          <div className="w-64 flex flex-col items-center mb-12 bg-amber-600  rounded-xl p-2">
