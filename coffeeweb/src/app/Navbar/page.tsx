@@ -1,13 +1,13 @@
 
-
+import Image from "next/image";
 import Link from "next/link";
-
+import logo from "../Assests/logo.png"
 const Navbar = () => {
     // const  [mobileFun.setMobile()]= useEffect()
     // setMobile()
     return (
         <div className="flex justify-between bg-amber-900 h-16 pb-2 text-yellow-200 pl-5 w-screen fixed flex-wrap-reverse z-10 ">
-            <img className="sm:w-40 sm: rounded-xl h-12" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgnwiaYKEn0Ezbu2GTqYNJAlZYYzxMn3zFbQ&s" alt="" />
+            <Image className="sm:w-40 sm: rounded-xl h-12" src={logo} alt="" />
             <div className="hidden md:block pt-3 ">
                 <ul className="outline-none  flex gap-12 pr-20 ">
 
