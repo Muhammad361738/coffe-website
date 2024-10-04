@@ -11,10 +11,10 @@ const Navbar = () => {
             <div className="hidden md:block pt-3 ">
                 <ul className="outline-none  flex gap-12 pr-20 ">
 
-                    <li ><Link href={"/"}>Home</Link></li>
-                    <li><Link  href={"/About"}>About</Link></li>
-                    <li><Link  href={"/Products"}>Product</Link></li>
-                    <li><Link  href={"/Contact"}>Contact</Link></li>
+                    <li ><Link className="hover:bg-red-800" href={"/"}>Home</Link></li>
+                    <li><Link className="hover:bg-red-800" href={"/About"}>About</Link></li>
+                    <li><Link className="hover:bg-red-800" href={"/Products"}>Product</Link></li>
+                    <li><Link className="hover:bg-red-800" href={"/Contact"}>Contact</Link></li>
                 </ul>
                            </div>
                            <div className="md:hidden  ">
