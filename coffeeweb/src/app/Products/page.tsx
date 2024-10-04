@@ -35,7 +35,7 @@ const Page = () => {
                  {/* card3 */}
                  <div className="w-64 flex flex-col items-center mb-12 bg-amber-600  rounded-xl p-2">
                          <Image className="w-64 h-40" src={card3} alt=''></Image>
-                         <div className='text-2xl text-white font-mono mt-4'>Hazelnut </div>
+                         <div className='text-2xl text-white font-mono mt-4'>Hazelnut</div>
                          <p className="text-xl font-bold text-black">Considered a good choice almost anywher hazelnut flavoring provides a sweet and buttery taste It emits a nutty aroma in freshly brewed batches </p>
                      </div>
 
