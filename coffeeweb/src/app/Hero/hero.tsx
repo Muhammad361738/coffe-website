@@ -6,9 +6,7 @@ import bgc4 from "../Assests/bgc4.jpg"
 const Hero = () => {
     return (
         <div >
-          <br />
-          <br />
-          <div className="relative">
+           <div className="relative">
             
                 {/* Image using Next.js Image component */}
                 <div className="relative w-screen h-screen"> {/* Set a height for the image */}
