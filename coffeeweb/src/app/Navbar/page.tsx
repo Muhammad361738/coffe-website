@@ -46,8 +46,8 @@ const Page = () => {
           <ul className="text-center text-white text-2xl space-y-6">
             <li><Link href="/" onClick={toggleMenu}>Home</Link></li>
             <li><Link href="/About" onClick={toggleMenu}>About</Link></li>
-            <li><Link href="/Product" onClick={toggleMenu}>Skills</Link></li>
-            <li><Link href="/Contact" onClick={toggleMenu}>Education</Link></li>
+            <li><Link href="/Product" onClick={toggleMenu}>Products</Link></li>
+            <li><Link href="/Contact" onClick={toggleMenu}>Contact</Link></li>
           </ul>
         </div>
       )}
